@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            color: #ffffff;
+        }
+        header {
+            background-color: #333333;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .container {
+            width: 50%;
+            margin: 20px auto;
+        }
+        .profile {
+            text-align: center;
+        }
+        .profile img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        .profile h1 {
+            margin: 10px 0 5px;
+        }
+        .profile p {
+            color: #ffffff;
+        }
+        .portfolio {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px; /* Adjust the gap as needed */
+            flex-wrap: nowrap; /* Prevent wrapping */
+        }
+        .portfolio-item {
+            background-color: #4f4f4f;
+            width: calc(25% - 0px); /* Adjust the width to fit four items with gap */
+            margin: 10px 0;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+            color: #ffffff;
+            box-sizing: border-box; /* Ensure padding and border are included in the width */
+        }
+        .portfolio-item img {
+            max-width: 100%;
+        }
+        .portfolio-item a {
+            color: #1e90ff;
+            text-decoration: none;
+        }
+        .portfolio-item a:hover {
+            text-decoration: underline;
+        }
+        .portfolio-item h2 {
+            margin: 0 0 5px 0; /* Reduce margin around titles */
+        }
+        footer {
+            background-color: #4f4f4f;
+            color: #4f4f4f;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 30px;
+            margin-left: 30px;
+        }
+        #about-me {
+            text-align: center;
+            margin: 50px 0; /* Increased the margin to create a larger gap */
+        }
+        #about-me h2 {
+            font-size: 2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My Portfolio</h1>
+</header>
+
+<div class="container">
+    <div class="profile">
+        <img src="Images/ProfilePic.jpg" alt="Profile Picture">
+        <h1>Sarang Kale</h1>
+        <p>Software Developer | Programmer</p>
+    </div>
+
+    <div id="about-me">
+        <p>Hello! I'm Sarang Kale, a passionate software developer with a love for creating innovative solutions to complex problems. With a background in computer science and years of programming experience, I specialize in developing efficient, scalable, and user-friendly applications. My journey in technology has been driven by a continuous thirst for knowledge and a desire to improve with every project I undertake.</p>
+        <p>In my free time, I enjoy exploring new technologies, contributing to open-source projects, and connecting with like-minded professionals. I'm always eager to learn and take on new challenges that can push the boundaries of my skills and creativity.</p>
+    </div>
+
+    <div class="portfolio">
+        <div class="portfolio-item">
+            <h2 margin_top="0px;"><a href="https://www.linkedin.com/in/sarang-kale-783876275/" target="_blank"
+                 style="color:rgb(255, 255, 255);">LinkedIn</a></h2>
+            <img src="Images/LinkedIn.png" alt="LinkedIn">
+            <p>Check out my LinkedIn! You can learn all about my background and experiences in tech. 
+            I'm always happy to connect with people who share my passion and interests as well.</p>
+        </div>
+        <div class="portfolio-item">
+            <h2><a href="https://github.com/sarangkale" target="_blank" 
+                style="color:rgb(255, 255, 255);">GitHub</a></h2>
+            <img src="Images/Github.jpg" alt="GitHub">
+            <p>Check out my GitHub! You can view all the projects I've made or collaborated on with different developers.</p>
+        </div>
+        <div class="portfolio-item">
+            <h2><a href="file:///C:/Users/saran/OneDrive/Desktop/SarangKaleResume.pdf" target="_blank" 
+                style="color:rgb(255, 255, 255);">Resume</a></h2>
+            <img src="Images/Resume.png" alt="Resume">
+            <p>Take a look at my resume to see my skills and experiences. 
+                If you find anything you're looking for, feel free to reach out to my email.</p>
+        </div>
+        <div class="portfolio-item">
+            <h2><a href="mailto:sarangkale04@gmail.com" target="_blank"
+                 style="color:rgb(255, 255, 255);">Gmail</a></h2>
+            <img src="Images/Gmail.jpg" alt="Gmail">
+            <p>Do not hesitate to contact me! If you want to reach out then feel free to email me and say hello.</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p style="color:rgb(255, 255, 255);">2024 Sarang Kale. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
